@@ -1,0 +1,14 @@
+.contacts__phone {
+  font-size: 21px;
+  color: #000;
+}
+.contacts__phone:hover {
+  color: #f5170e;
+}
+.contacts__phone:before {
+  content: url(../../img/phone.png);
+  margin-right: 4px;
+}
+.contacts__phone:hover::before {
+  color: #f5170e;
+}
