@@ -1,14 +1,16 @@
-.contacts__phone {
+.contact-phone {
+  display: flex;
+  align-items: center;
   font-size: 21px;
-  color: #000;
-}
-.contacts__phone:hover {
-  color: #f5170e;
-}
-.contacts__phone:before {
-  content: url(../../img/phone.png);
-  margin-right: 4px;
-}
-.contacts__phone:hover::before {
-  color: #f5170e;
-}
+  color: #000; }
+  .contact-phone:hover {
+    color: #f5170e; }
+
+.contact-phone_icon_elem {
+  width: 12px;
+  height: 11px;
+  margin-right: 6px; }
+  .contact-phone_icon_elem:hover {
+    color: #f5170e; }
+
+/*# sourceMappingURL=contacts.css.map */

@@ -1,0 +1,113 @@
+.order-section {
+  background: url(../../img/delivery-fon.jpg) center center/cover no-repeat;
+}
+
+.form {
+  display: flex;
+}
+
+.form__col {
+  flex: 1;
+  margin-right: 20px;
+}
+.form__col:last-child {
+  margin-right: 0;
+}
+
+.form__row {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.form__block {
+  flex: 1;
+  margin-right: 20px;
+}
+.form__block:last-child {
+  margin-right: 0;
+}
+
+.form__input {
+  width: 100%;
+  padding: 18px 11px;
+  border: solid 3px transparent;
+}
+.form__input:focus {
+  border-color: #e01f3d;
+  outline: none;
+}
+.form__input_textarea {
+  height: 180px;
+  resize: none;
+}
+
+.form__controls {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 6px;
+}
+
+.radio {
+  display: flex;
+  cursor: pointer;
+  margin-right: 20px;
+  -webkit-user-select: none;
+          user-select: none;
+}
+.radio_checkbox .radio__visible {
+  border-radius: 0;
+}
+.radio_checkbox .radio__visible:before {
+  content: "";
+  width: 14px;
+  height: 14px;
+  display: none;
+  background-color: #e01f3d;
+  position: absolute;
+  border-radius: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.radio__elem {
+  display: none;
+}
+.radio__elem:checked ~ .radio__visible::before {
+  display: block;
+}
+
+.radio__visible {
+  width: 26px;
+  height: 26px;
+  position: relative;
+  margin-right: 6px;
+  border-radius: 50%;
+  background-color: white;
+}
+.radio__visible:before {
+  content: "";
+  width: 14px;
+  height: 14px;
+  display: none;
+  background-color: #e01f3d;
+  position: absolute;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn_transparent {
+  background: transparent;
+  color: #999999;
+  text-transform: none;
+}
+.btn_transparent:hover {
+  background: transparent;
+  color: #e01f3d;
+}
+
+.radio_checkbox {
+  margin-bottom: 35px;
+}

@@ -11,55 +11,283 @@
 
 <body>
   <div class="wrap">
-    <div class="first-screen">
+    <section class="promo">
+      <div class="container promo__container">
+        <header class="header">
+          <img src="img/logo.png" width="42px" height="42px" alt="логотип">
+          <nav class="site-menu">
+            <ul class="site-menu__list">
+              <li class="site-menu__item"><a href="#" class="site-menu__link">О нас</a></li>
+              <li class="site-menu__item"><a href="#" class="site-menu__link">Наушники</a></li>
+              <li class="site-menu__item"><a href="#" class="site-menu__link">Команда</a></li>
+              <li class="site-menu__item"><a href="#" class="site-menu__link">Цвета</a></li>
+              <li class="site-menu__item"><a href="#" class="site-menu__link">Отзывы</a></li>
+              <li class="site-menu__item"><a href="#" class="site-menu__link">Как мы работаем</a></li>
+              <li class="site-menu__item"><a href="#" class="site-menu__link">Контакты</a></li>
+            </ul>
+          </nav>
 
-      <header class="header">
-        <div class="container header__container">
-          <div class="header__col">
-            <a class="logo" href="#">
-              <img src="img/logo.png" width="42px" height="42px" alt="логотип">
-            </a>
-            <nav class="site-menu">
-              <ul class="site-menu__list">
-                <li class="site-menu__item"><a href="#" class="site-menu__link">О нас</a></li>
-                <li class="site-menu__item"><a href="#" class="site-menu__link">Наушники</a></li>
-                <li class="site-menu__item"><a href="#" class="site-menu__link">Команда</a></li>
-                <li class="site-menu__item"><a href="#" class="site-menu__link">Цвета</a></li>
-                <li class="site-menu__item"><a href="#" class="site-menu__link">Отзывы</a></li>
-                <li class="site-menu__item"><a href="#" class="site-menu__link">Как мы работаем</a></li>
-                <li class="site-menu__item"><a href="#" class="site-menu__link">Контакты</a></li>
-              </ul>
-            </nav>
+          <a href="tel:8 800 903 90 90" class="contact-phone">
+            <span class="contact-phone_icon">
+              <img src="img/phone.png" alt="" class="contact-phone_icon_elem">
+            </span>
+            <span class="contact-phone_text">8 800 903 90 90</span>
+
+          </a>
+
+        </header>
+        <div class="promo__text-content">
+          <h1 class="promo__title">Беспроводные
+            наушники
+            Beats Solo 3</h1>
+          <div class="promo__text">
+            <p>Встречайте новую версию наушников
+              из линейки Powerbeats.</p>
           </div>
-          <div class="header__col header__col_align_right">
-            <adress class="contacts">
-              <a href="tel:8 800 903 90 90" class="contacts__phone">8 800 903 90 90</a>
-            </adress>
-          </div>
+          <a href="#" class="promo__btn btn">Заказать</a>
         </div>
-      </header>
 
-      <section class="promo">
-        <div class="container">
-          <div class="promo__text-content">
-            <h1 class="promo__title">Беспроводные
-              наушники
-              Beats Solo 3</h1>
-            <div class="promo__text">
-              <p>Встречайте новую версию наушников
-                из линейки Powerbeats.</p>
+        <div class="promo__icons">
+          <ul class="features">
+            <li class="features__item feature">
+              <div class="feature__icon">
+                <img src="icons/noise.svg" alt="">
+              </div>
+              <div class="feature__text">Безупречный звук</div>
+            </li>
+            <li class="features__item feature">
+              <div class="feature__icon">
+                <img src="icons/charging.svg" alt="">
+              </div>
+              <div class="feature__text">До 40 часов работы</div>
+            </li>
+            <li class="features__item feature">
+              <div class="feature__icon">
+                <img src="icons/plug.svg" alt="">
+              </div>
+              <div class="feature__text">Технология
+                Fast Fuel </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="section benefits-section">
+      <div class="container">
+        <div class="headline">
+          <h2 class="section__title headline__title">почему beats solo 3?</h2>
+          <div class="headline__subtitle">Процессор W1 работает невероятно эффективно и позволяет легко
+            подключать наушники к различным устройствам Apple.</div>
+        </div>
+        <ul class="benefits">
+          <li class="benefits-item benefit">
+            <div class="benefit__img">
+              <div class="benefit__img-wrap">
+                <img src="icons/battery.svg" alt="" class="benefit__icon">
+              </div>
             </div>
-            <a href="#" class="promo__btn btn">Заказать</a>
+            <div class="benefit__text">
+              <div class="benefit__title">40 часов работы</div>
+              <div class="benefit__desc">
+                <p>
+                  Наушники Beats Solo3 могут работать
+                  до 40 часов без подзарядки, чтобы вы
+                  могли пользоваться ими каждый день.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="benefits-item benefit">
+            <div class="benefit__img">
+              <div class="benefit__img-wrap">
+                <img src="icons/sound.svg" alt="" class="benefit__icon">
+              </div>
+            </div>
+            <div class="benefit__text">
+              <div class="benefit__title">Фирменное звучание</div>
+              <div class="benefit__desc">
+                <p>
+                  Фирменное звучание Beats в наушниках
+                  с технологией Bluetooth класса
+                  1 будет сопровождать вас повсюду —
+                  куда бы вы ни отправились.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="benefits-item benefit">
+            <div class="benefit__img">
+              <div class="benefit__img-wrap">
+                <img src="icons/time.svg" alt="" class="benefit__icon">
+              </div>
+            </div>
+            <div class="benefit__text">
+              <div class="benefit__title">Быстрая зарядка</div>
+              <div class="benefit__desc">
+                <p>
+                  Благодаря технологии Fast Fuel
+                  всего через 5 минут зарядки вы
+                  сможете слушать музыку ещё 3 часа.
+                </p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="section reviews-section">
+      <div class="container">
+        <h2 class="section__title">Отзывы</h2>
+        <div class="reviews">
+          <div class="reviews__display">
+            <div class="reviews__display-inner">
+              <div class="reviews__avatar">
+                <img src="img/billie.jpg" alt="" class="reviews__avatar-img">
+              </div>
+              <article class="reviews__content">
+                <h3 class="reviews__title">Отличный звук
+                </h3>
+                <div class="reviews__text">
+                  <p>
+                    Я ем малыми порциями, но часто. Это повышает мою продуктивность в разы. В течение дня сижу за
+                    компьютером
+                    и часто отходить в кафе или на кухню просто не могу себе позволить. А батончик – он всегда под
+                    рукой. Это приятно
+                    и удобно.
+
+                  </p>
+                </div>
+                <div class="reviews__author">Билли Айлиш</div>
+              </article>
+            </div>
           </div>
+          <ul class="reviews__switcher">
+            <li class="reviews__switcher-item interactive-avatar interactive-avatar_active">
+              <a href="" class="interactive-avatar__link">
+                <img src="img/billie.jpg" alt="" class="interactive-avatar__img">
+              </a>
+            </li>
+            <li class="reviews__switcher-item interactive-avatar">
+              <a href="" class="interactive-avatar__link">
+                <img src="img/billie.jpg" alt="" class="interactive-avatar__img">
+              </a>
+            </li>
+            <li class="reviews__switcher-item interactive-avatar">
+              <a href="" class="interactive-avatar__link">
+                <img src="img/billie.jpg" alt="" class="interactive-avatar__img">
+              </a>
+            </li>
+          </ul>
         </div>
-      </section>
-      <section class="info">
-        <div class="container">
-          
-        </div>
-      </section>
-    </div>
+      </div>
+    </section>
+    <section class="section order-section section_font-color_white">
+      <div class="container">
+        <h2 class="section__title">Закажите Доставку</h2>
+        <form action="" class="form">
+          <div class="form__col">
+            <div class="form__row">
+              <label for="" class="form__block">
+                <div class="form__title">Имя</div>
+                <input type="text" class="form__input"></input>
+              </label>
+              <label for="" class="form__block">
+                <div class="form__title">Телефон</div>
+                <input type="text" class="form__input"></input>
+              </label>
+            </div>
+            <div class="form__row">
+              <label for="" class="form__block">
+                <div class="form__title">Улица</div>
+                <input type="text" class="form__input"></input>
+              </label>
+            </div>
+            <div class="form__row">
+              <label for="" class="form__block">
+                <div class="form__title">Дом</div>
+                <input type="text" class="form__input"></input>
+              </label>
+              <label for="" class="form__block">
+                <div class="form__title">Корпус</div>
+                <input type="text" class="form__input"></input>
+              </label>
+              <label for="" class="form__block">
+                <div class="form__title">Квартира</div>
+                <input type="text" class="form__input"></input>
+              </label>
+              <label for="" class="form__block">
+                <div class="form__title">Этаж</div>
+                <input type="text" class="form__input"></input>
+              </label>
+            </div>
+          </div>
+          <div class="form__col">
+            <div class="form__row">
+              <label for="" class="form__block">
+                <div class="form__title">Комментарий</div>
+                <textarea class="form__input form__input_textarea"></textarea>
+              </label>
+            </div>
+            <div class="form__controls">
+              <label  class="radio">
+                <input type="radio" name="option" class="radio__elem">
+                <div class="radio__visible"></div>
+                <div class="radio__title">Потребуется сдача</div>
+              </label>
+              <label  class="radio">
+                <input type="radio" name="option" class="radio__elem">
+                <div class="radio__visible"></div>
+                <div class="radio__title">Оплата по карте</div>
+              </label>
+            </div>
+            <div class="form__controls">
+            
+              <label  class="radio radio_checkbox">
+                <input type="checkbox" class="radio__elem">
+                <div class="radio__visible"></div>
+                <div class="radio__title">Не перезванивать</div>
+              </label>
+            </div>
+            <div class="form__btns">
+              <input type="submit" value="Заказать" class="btn">
+              <input type="reset" value="Очистить" class="btn btn_transparent">
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
   </div>
+  <nav class="fixed-menu">
+    <ul class="fixed-menu__list">
+      <li class="fixed-menu__item fixed-menu__item_active">
+        <a href="" class="fixed-menu__link"></a>
+      </li>
+      <li class="fixed-menu__item">
+        <a href="" class="fixed-menu__link"></a>
+      </li>
+      <li class="fixed-menu__item">
+        <a href="" class="fixed-menu__link"></a>
+      </li>
+      <li class="fixed-menu__item">
+        <a href="" class="fixed-menu__link"></a>
+      </li>
+      <li class="fixed-menu__item">
+        <a href="" class="fixed-menu__link"></a>
+      </li>
+      <li class="fixed-menu__item">
+        <a href="" class="fixed-menu__link"></a>
+      </li>
+      <li class="fixed-menu__item">
+        <a href="" class="fixed-menu__link"></a>
+      </li>
+      <li class="fixed-menu__item">
+        <a href="" class="fixed-menu__link"></a>
+      </li>
+      <li class="fixed-menu__item">
+        <a href="" class="fixed-menu__link"></a>
+      </li>
+    </ul>
+  </nav>
 </body>
 
 </html>

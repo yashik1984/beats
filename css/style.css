@@ -1,3 +1,4 @@
+
 @import url(layout/normalize.css);
 @import url(layout/base.css);
 @import url(blocks/header.css);
@@ -5,4 +6,9 @@
 @import url(blocks/contacts.css);
 @import url(blocks/promo.css);
 @import url(blocks/btn.css);
-@import url(blocks/info.css);
+@import url(blocks/section.css);
+@import url(blocks/headline.css);
+@import url(blocks/benefits.css);
+@import url(blocks/reviews.css);
+@import url(blocks/form.css);
+@import url(blocks/fixed-menu.css);

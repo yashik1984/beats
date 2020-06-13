@@ -1,5 +1,17 @@
 .promo {
-  margin-bottom: 243px;
+  background: url(../../img/MX452.png) left 74% bottom 30% no-repeat;
+  background-color: #f5f5f5;
+  height: 100vh;
+  min-height: 650px;
+
+}
+
+.promo__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  padding: 26px 0 45px 0;
 }
 
 .promo__text-content {
@@ -8,19 +20,52 @@
 
 .promo__title {
   font-size: 48px;
-  color:#000;
+  color: #000;
   font-weight: 700;
   line-height: 1.2;
-  margin-bottom: 37px;
+  margin-bottom: 20px;
   text-transform: uppercase;
 }
 
 .promo__text {
   font-size: 18px;
   color: #000;
-  margin-bottom: 44px;
-  max-width: 322px;
+  margin-bottom: 30px;
+  padding-right: 10%;
 }
-.promo__btn{
-  margin-bottom: 100px;
+
+.promo__btn {
+  margin-bottom: 90px;
+}
+
+.features {
+  display: flex;
+
+}
+
+.features__item {
+  margin-right: 30px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.feature__icon {
+  width: 44px;
+  height: 44px;
+  margin-right: 7px;
+}
+
+.feature {
+  display: flex;
+}
+
+.feature__text {
+  font-size: 16px;
+  max-width: 100px;
+}
+
+.promo__icons {
+  padding-bottom: 40px;
 }

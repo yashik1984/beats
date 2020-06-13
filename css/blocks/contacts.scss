@@ -1,17 +1,21 @@
-.contacts__phone {
+.contact-phone {
+  display: flex;
+  align-items: center;
   font-size: 21px;
   color: #000;
+
 
   &:hover {
     color: #f5170e;
   }
+}
 
-  &:before {
-    content: url(../../img/phone.png);
-    margin-right: 4px;
-  }
+.contact-phone_icon_elem {
+  width: 12px;
+  height: 11px;
+  margin-right: 6px;
 
-  &:hover::before {
+  &:hover {
     color: #f5170e;
   }
 }
