@@ -1,16 +1,18 @@
 .contact-phone {
   display: flex;
   align-items: center;
-  font-size: 21px;
-  color: #000; }
-  .contact-phone:hover {
-    color: #f5170e; }
+  font-size: rem(21px);
+  color: #000;
+}
+.contact-phone:hover {
+  color: #f5170e;
+}
 
 .contact-phone_icon_elem {
-  width: 12px;
-  height: 11px;
-  margin-right: 6px; }
-  .contact-phone_icon_elem:hover {
-    color: #f5170e; }
-
-/*# sourceMappingURL=contacts.css.map */
+  width: rem(12px);
+  height: rem(11px);
+  margin-right: rem(6px);
+}
+.contact-phone_icon_elem:hover {
+  color: #f5170e;
+}

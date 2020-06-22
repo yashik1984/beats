@@ -9,7 +9,7 @@
 
 .form__col {
   flex: 1;
-  margin-right: 20px;
+  margin-right: rem(20px);
 
   &:last-child {
 
@@ -19,12 +19,12 @@
 
 .form__row {
   display: flex;
-  margin-bottom: 20px;
+  margin-bottom: rem(20px);
 }
 
 .form__block {
   flex: 1;
-  margin-right: 20px;
+  margin-right: rem(20px);
 
   &:last-child {
     margin-right: 0;
@@ -33,8 +33,8 @@
 
 .form__input {
   width: 100%;
-  padding: 18px 11px;
-  border: solid 3px transparent;
+  padding: rem(18px) rem(11px);
+  border: solid rem(3px) transparent;
 
   &:focus {
     border-color: #e01f3d;
@@ -42,7 +42,7 @@
   }
 
   &_textarea {
-    height: 180px;
+    height: rem(180px);
     resize: none;
   }
 }
@@ -50,14 +50,14 @@
 .form__controls {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 6px;
+  margin-bottom: rem(6px);
 }
 
 
 .radio {
   display: flex;
   cursor: pointer;
-  margin-right: 20px;
+  margin-right: rem(20px);
   user-select: none;
 
   &_checkbox {
@@ -66,8 +66,8 @@
 
       &:before {
         content: "";
-        width: 14px;
-        height: 14px;
+        width: rem(14px);
+        height: rem(14px);
         display: none;
         background-color: #e01f3d;
         position: absolute;
@@ -91,17 +91,17 @@
 }
 
 .radio__visible {
-  width: 26px;
-  height: 26px;
+  width: rem(26px);
+  height: rem(26px);
   position: relative;
-  margin-right: 6px;
+  margin-right: rem(6px);
   border-radius: 50%;
   background-color: white;
 
   &:before {
     content: "";
-    width: 14px;
-    height: 14px;
+    width: rem(14px);
+    height: rem(14px);
     display: none;
     background-color: #e01f3d;
     position: absolute;
@@ -121,5 +121,5 @@
   }
 }
 .radio_checkbox{
-  margin-bottom: 35px;
+  margin-bottom: rem(35px);
 }

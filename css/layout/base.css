@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 16px;
+}
+
 html,
 body {
   height: 100%;
@@ -58,7 +62,15 @@ table {
 }
 
 .container {
-  width: 940px;
+  max-width: 940px;
+  width: 95%;
   margin: 0 auto;
   position: relative;
+}
+
+.wrap {
+  position: relative;
+  width: 100%;
+  min-width: height 100%;
+  overflow: hidden;
 }

@@ -1,5 +1,5 @@
 .site-menu__item {
-  margin-right: 27px;
+  margin-right: rem(27px);
 }
 
 .site-menu__item:last-child {
@@ -7,7 +7,7 @@
 }
 
 .site-menu__link {
-  font-size: 16px;
+  font-size: rem(16px);
   color: black;
 }
 

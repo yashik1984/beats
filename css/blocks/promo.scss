@@ -8,27 +8,27 @@
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
-  padding: 26px 0 45px 0;
+  padding: rem(26px) 0 rem(45px) 0;
 }
 
 .promo__text-content {
   width: 45%;
-  margin-bottom: 90px;
+  margin-bottom: rem(90px);
 }
 
 .promo__title {
-  font-size: 48px;
+  font-size: rem(48px);
   color: #000;
   font-weight: 700;
   line-height: 1.2;
-  margin-bottom: 20px;
+  margin-bottom: rem(20px);
   text-transform: uppercase;
 }
 
 .promo__text {
-  font-size: 18px;
+  font-size: rem(18px);
   color: #000;
-  margin-bottom: 30px;
+  margin-bottom: rem(30px);
   padding-right: 10%;
 }
 
@@ -40,7 +40,7 @@
 }
 
 .features__item {
-  margin-right: 30px;
+  margin-right: rem(30px);
 
   &:last-child {
     margin-right: 0;
@@ -48,9 +48,9 @@
 }
 
 .feature__icon {
-  width: 44px;
-  height: 44px;
-  margin-right: 7px;
+  width: rem(44px);
+  height: rem(44px);
+  margin-right: rem(7px);
 }
 
 .feature {
@@ -58,7 +58,7 @@
 }
 
 .feature__text {
-  font-size: 16px;
-  max-width: 100px;
+  font-size: rem(16px);
+  max-width: rem(100px);
 }
 

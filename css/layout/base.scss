@@ -1,7 +1,16 @@
 * {
   box-sizing: border-box;
 }
+html{
+  font-size:baseFontSize;
 
+  @include tablets{
+    font-size: 15px;
+  }
+  @include phone{
+    font-size: 14px;
+  }
+}
 html,
 body {
   height: 100%;
@@ -11,6 +20,7 @@ body {
   font-family: 'Play', sans-serif;
   line-height: 1.42;
   font-weight: 400;
+  
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -58,7 +68,14 @@ table {
 }
 
 .container {
-  width: 940px;
+  max-width: 940px;
+  width: 95%;
   margin: 0 auto;
   position: relative;
+}
+.wrap{
+  position: relative;
+  width: 100%;
+  min-width: height 100%;
+  overflow: hidden;
 }

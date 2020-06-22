@@ -1,14 +1,14 @@
-
+@import url(blocks/media.scss);
 @import url(layout/normalize.css);
-@import url(layout/base.css);
-@import url(blocks/header.css);
-@import url(blocks/site-menu.css);
-@import url(blocks/contacts.css);
-@import url(blocks/promo.css);
-@import url(blocks/btn.css);
-@import url(blocks/section.css);
-@import url(blocks/headline.css);
-@import url(blocks/benefits.css);
-@import url(blocks/reviews.css);
-@import url(blocks/form.css);
-@import url(blocks/fixed-menu.css);
+@import url(layout/base.scss);
+@import url(blocks/header.scss);
+@import url(blocks/site-menu.scss);
+@import url(blocks/contacts.scss);
+@import url(blocks/promo.scss);
+@import url(blocks/btn.scss);
+@import url(blocks/section.scss);
+@import url(blocks/headline.scss);
+@import url(blocks/benefits.scss);
+@import url(blocks/reviews.scss);
+@import url(blocks/form.scss);
+@import url(blocks/fixed-menu.scss);

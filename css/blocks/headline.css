@@ -1,15 +1,15 @@
 .headline__title {
-  margin-bottom: 5px;
+  margin-bottom: rem(5px);
 }
 
 .headline__subtitle {
-  font-size: 18px;
+  font-size: rem(18px);
   color: #6666;
   text-align: center;
   padding: 0 19%;
 }
 
 .headline {
-  margin-bottom: 57px;
+  margin-bottom: rem(57px);
   text-align: center;
 }

@@ -1,4 +1,8 @@
 $z-fixed-menu: 100;
+$tablets: 768px;
+$phones: 480px;
+$baseFontSize: 16px;
+@import url(blocks/media.scss);
 @import url(layout/normalize.css);
 @import url(layout/base.scss);
 @import url(blocks/header.scss);
@@ -12,3 +16,4 @@ $z-fixed-menu: 100;
 @import url(blocks/reviews.scss);
 @import url(blocks/form.scss);
 @import url(blocks/fixed-menu.scss);
+

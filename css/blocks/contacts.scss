@@ -1,7 +1,7 @@
 .contact-phone {
   display: flex;
   align-items: center;
-  font-size: 21px;
+  font-size: rem(21px);
   color: #000;
 
 
@@ -11,9 +11,9 @@
 }
 
 .contact-phone_icon_elem {
-  width: 12px;
-  height: 11px;
-  margin-right: 6px;
+  width: rem(12px);
+  height: rem(11px);
+  margin-right: rem(6px);
 
   &:hover {
     color: #f5170e;
