@@ -1,10 +1,13 @@
-.header {
+.contact-phone.header__phone-number{
+  @include tablets{
+    display: none;
+  }
+}
+.header{
   display: flex;
-  align-items: center;
   justify-content: space-between;
   margin-bottom: rem(80px);
 }
-
-.logo {
+.logo{
   margin-right: rem(40px);
 }

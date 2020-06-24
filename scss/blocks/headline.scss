@@ -1,15 +1,19 @@
-.headline__title {
+.headline__title{
   margin-bottom: rem(5px);
-}
+ 
 
-.headline__subtitle {
+}
+.headline__subtitle{
   font-size: rem(18px);
   color: #6666;
   text-align: center;
   padding: 0 19%;
+  
+   @include phones{
+     padding: 0 5%;
+   }
 }
-
-.headline {
+.headline{
   margin-bottom: rem(57px);
   text-align: center;
 }

@@ -1,20 +1,26 @@
 * {
   box-sizing: border-box;
 }
+html{
+  font-size:baseFontSize;
 
-html {
-  font-size: 16px;
+  @include tablets{
+    font-size: 15px;
+  }
+  @include phones{
+    font-size: 14px;
+  }
 }
-
 html,
 body {
   height: 100%;
 }
 
 body {
-  font-family: "Play", sans-serif;
+  font-family: 'Play', sans-serif;
   line-height: 1.42;
   font-weight: 400;
+  
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -67,8 +73,7 @@ table {
   margin: 0 auto;
   position: relative;
 }
-
-.wrap {
+.wrap{
   position: relative;
   width: 100%;
   min-width: height 100%;

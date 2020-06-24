@@ -1,11 +1,20 @@
 .order-section {
-  background: url(../../img/delivery-fon.jpg) center center / cover no-repeat;
+  background: url(../img/delivery-fon.jpg) center center / cover no-repeat;
 }
 
 .form {
   display: flex;
 
+  @include tablets{
+    flex-direction: column;
+    padding: 0 19%;
+  }
+  @include phones{
+    padding: 0;
+  }
 }
+
+
 
 .form__col {
   flex: 1;
@@ -13,6 +22,9 @@
 
   &:last-child {
 
+    margin-right: 0;
+  }
+  @include tablets{
     margin-right: 0;
   }
 }
@@ -51,8 +63,15 @@
   display: flex;
   flex-wrap: wrap;
   margin-bottom: rem(6px);
-}
 
+  @include phones{
+    justify-content: center;
+  }
+}
+.form__btns{
+  display: flex;
+  justify-content: center;
+}
 
 .radio {
   display: flex;

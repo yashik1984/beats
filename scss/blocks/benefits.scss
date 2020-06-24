@@ -1,5 +1,9 @@
 .benefits {
   display: flex;
+
+  @include phones{
+    flex-direction: column;
+  }
 }
 
 .benefits-item {
@@ -7,12 +11,21 @@
   padding: 0 2%;
   position: relative;
 
+  @include phones{
+    padding: 0;
+    margin-bottom: rem(19px);
+  }
+
   &:before {
-    content: url(../../img/decor.png);
+    content: url(../img/decor.png);
     position: absolute;
     top: rem(50px);
     right: 0;
     transform: translateX(50%);
+
+    @include phones{
+      display: none;
+    }
   }
 
 
@@ -36,6 +49,11 @@
 
 .benefit {
   text-align: center;
+
+  @include phones{
+    display: flex;
+    text-align: center;
+  }
 }
 
 .benefit__img-wrap {

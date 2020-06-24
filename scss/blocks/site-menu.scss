@@ -1,5 +1,14 @@
+.site-menu{
+  margin: 0 30px;
+  padding-top: 5px;
+  @include tablets{
+    display:none
+  }
+}
+
 .site-menu__item {
   margin-right: rem(27px);
+  margin-bottom: 10px;
 }
 
 .site-menu__item:last-child {
@@ -9,11 +18,14 @@
 .site-menu__link {
   font-size: rem(16px);
   color: black;
+  white-space: nowrap;
 
 }
 
 .site-menu__list {
+  flex-wrap: wrap;
   display: flex;
   align-items: center;
   list-style: none;
+  justify-content: center;
 }
