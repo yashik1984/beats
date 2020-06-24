@@ -20,4 +20,11 @@
   text-align: center;
   text-transform: uppercase;
   color: black;
+  @include phones{
+    font-size: rem(41px);
+  }
+  @include phonesSmall{
+    font-size: rem(32px);
+    margin-bottom: rem(20px);
+  }
 }

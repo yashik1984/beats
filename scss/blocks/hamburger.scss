@@ -3,8 +3,9 @@
   height: 20px;
   justify-content: space-between;
   flex-direction: column;
+  display: none;
   @include tablets{
-    display: inline-flexbox;
+    display: inline-flex;
   }
 }
 .hamburger__plank{

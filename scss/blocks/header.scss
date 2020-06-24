@@ -5,9 +5,13 @@
 }
 .header{
   display: flex;
-  justify-content: space-between;
+ 
   margin-bottom: rem(80px);
 }
 .logo{
-  margin-right: rem(40px);
+  flex-shrink:0 ;
+}
+
+.header__phone-number{
+  margin-left: auto;
 }

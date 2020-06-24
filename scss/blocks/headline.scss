@@ -5,15 +5,23 @@
 }
 .headline__subtitle{
   font-size: rem(18px);
-  color: #6666;
+  color: #666666;
   text-align: center;
   padding: 0 19%;
-  
+  @include tablets{
+    padding: 0 7%;
+  }
    @include phones{
      padding: 0 5%;
+   }
+   @include phonesSmall{
+     padding: 0;
    }
 }
 .headline{
   margin-bottom: rem(57px);
   text-align: center;
+  @include phonesSmall{
+    margin-bottom: rem(40px);
+  }
 }

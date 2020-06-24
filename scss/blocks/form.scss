@@ -47,7 +47,9 @@
   width: 100%;
   padding: rem(18px) rem(11px);
   border: solid rem(3px) transparent;
-
+  @include tablets{
+    padding: rem(7px) rem(11px);
+  }
   &:focus {
     border-color: #e01f3d;
     outline: none;
@@ -56,6 +58,9 @@
   &_textarea {
     height: rem(180px);
     resize: none;
+    @include tablets{
+      height: rem(86px);
+    }
   }
 }
 

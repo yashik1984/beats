@@ -2,13 +2,16 @@
   box-sizing: border-box;
 }
 html{
-  font-size:baseFontSize;
+  font-size:$baseFontSize;
 
   @include tablets{
-    font-size: 15px;
+    font-size:$baseFontSize - 1px;
   }
   @include phones{
-    font-size: 14px;
+    font-size: $baseFontSize - 2px;
+  }
+  @include phonesSmall{
+    font-size: 4vmin;
   }
 }
 html,

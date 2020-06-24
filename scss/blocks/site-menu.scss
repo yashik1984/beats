@@ -1,6 +1,6 @@
 .site-menu{
-  margin: 0 30px;
-  padding-top: 5px;
+  margin-left: rem(39px);
+  padding-top: rem(12px);
   @include tablets{
     display:none
   }

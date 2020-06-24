@@ -17,7 +17,9 @@
     transform: translateX(-50%);
     top: rem(-65px);
   }
-
+@include phonesSmall{
+  padding: rem(40px) rem(10px) rem(30px);
+}
 }
 
 .reviews__display-inner {
@@ -38,6 +40,7 @@
   @include tablets {
     width: rem(130px);
     height: rem(132px);
+    margin-right: 0;
   }
 }
 
@@ -56,6 +59,9 @@
   font-weight: bold;
   margin-bottom: rem(32px);
   color: black;
+  @include phonesSmall{
+    margin-bottom: rem(20px);
+  }
 }
 
 .reviews__text {
