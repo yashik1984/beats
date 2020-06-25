@@ -11,18 +11,11 @@
   }
 }
 .contact-phone_icon{
+  width: rem(11px);
+  height:rem(11px);
   flex-shrink: 0;
-}
-.contact-phone_icon_elem {
-  flex-shrink: 0;
-  width: 12px;
-  height: 11px;
   margin-right: rem(6px);
-
   &:hover {
     color: #f5170e;
   }
-}
-.contact-phone_text{
-  white-space: nowrap;
 }

@@ -104,7 +104,7 @@
   @include phones{
     margin-bottom: rem(26px);
   }
-  @include phoneSmall{
+  @include phonesSmall{
     margin-bottom: rem(15px);
   }
 }
@@ -112,7 +112,7 @@
 .benefit__desc {
   font-size: rem(16px);
   color: #666666;
-  @include phoneSmall{
+  @include phonesSmall{
     font-size:rem(18px) ;
   }
   p{
