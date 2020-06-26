@@ -19,3 +19,11 @@
     color: #f5170e;
   }
 }
+.contact-phone__link{
+  color: black;
+}
+.header__phone-number{
+  @include tablets{
+    display: none;
+  }
+}

@@ -1,16 +1,50 @@
-.hamburger{
-  width: 24px;
-  height: 20px;
-  justify-content: space-between;
-  flex-direction: column;
+
+.hamburger {
   display: none;
-  @include tablets{
-    display: inline-flex;
+  @include tablets {
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 20px;
   }
 }
-.hamburger__plank{
-  display: block;
-  color: black;
-  height: 4px;
-  border-radius: 10px;
+
+.hamburger::before,
+.hamburger::after {
+  @include tablets {
+    content: "";
+    position: absolute;
+    display: block;
+    background-color: black;
+    height: 4px;
+    width: 100%;
+    border-radius: 10px;
+    left:  rem(500px);
+  }
+}
+
+.hamburger::before {
+  @include tablets {
+    top: 0;
+  }
+}
+
+.hamburger::after {
+  @include tablets {
+    bottom: 0;
+  }
+}
+
+.hamburger-box {
+  @include tablets {
+    position: absolute;
+    display: block;
+    background-color: black;
+    left: rem(500px);
+    height: 4px;
+    width: 100%;
+    border-radius: 10px;
+    top: 8px;
+
+  }
 }

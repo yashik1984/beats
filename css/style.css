@@ -523,6 +523,16 @@ table {
   color: #f5170e;
 }
 
+.contact-phone__link {
+  color: black;
+}
+
+@media screen and (max-width: 768px) {
+  .header__phone-number {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .promo__icons {
     display: none;
@@ -632,7 +642,7 @@ table {
 }
 @media screen and (max-width: 480px) {
   .promo__text {
-    padding: 0 16%;
+    padding: 0;
   }
 }
 
@@ -1258,35 +1268,54 @@ table {
 }
 
 .hamburger {
-  width: 24px;
-  height: 20px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   display: none;
 }
 @media screen and (max-width: 768px) {
   .hamburger {
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 20px;
   }
 }
 
-.hamburger__plank {
-  display: block;
-  color: black;
-  height: 4px;
-  border-radius: 10px;
+@media screen and (max-width: 768px) {
+  .hamburger::before,
+.hamburger::after {
+    content: "";
+    position: absolute;
+    display: block;
+    background-color: black;
+    height: 4px;
+    width: 100%;
+    border-radius: 10px;
+    left: 31.25rem;
+  }
 }
 
-.footer {
-  padding-top: 50px;
-  padding-bottom: 50px;
+@media screen and (max-width: 768px) {
+  .hamburger::before {
+    top: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hamburger::after {
+    bottom: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hamburger-box {
+    position: absolute;
+    display: block;
+    background-color: black;
+    left: 31.25rem;
+    height: 4px;
+    width: 100%;
+    border-radius: 10px;
+    top: 8px;
+  }
 }
 
 .footer__col {
@@ -1296,6 +1325,19 @@ table {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  padding-top: 3.125rem;
+  padding-bottom: 3.125rem;
+}
+@media screen and (max-width: 480px) {
+  .footer__col {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
 
 .social {
@@ -1310,11 +1352,33 @@ table {
 }
 
 .address {
-  font-family: "Play", sans-serif;
+  font-style: normal;
   color: black;
   font-size: 18px;
 }
 
 .social__item {
   margin-right: 15px;
+}
+
+.contact-phone_icon {
+  text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+  .footer__menu-contacts {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
