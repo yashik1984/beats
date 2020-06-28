@@ -30,19 +30,36 @@
             </ul>
           </nav>
           <div class="contact-phone header__phone-number">
-          <svg class="contact-phone_icon">
-            <use xlink:href="icons/sprite.svg#phone"></use>
-          </svg>
-          <a href="tel:8 800 903 90 90" class="contact-phone__link">
-            8 800 903 90 90
-          </a>
-        </div>
+            <svg class="contact-phone_icon">
+              <use xlink:href="icons/sprite.svg#phone"></use>
+            </svg>
+            <a href="tel:8 800 903 90 90" class="contact-phone__link">
+              8 800 903 90 90
+            </a>
+          </div>
 
-        <button class="hamburger hamburger--spin is-active" type="button">
-          <span class="hamburger-box">
-            <span class="hamburger-inner"></span>
-          </span>
-        </button>
+          <button class="hamburger hamburger--spin is-active" type="button">
+            <span class="hamburger-box">
+              <span class="hamburger-inner"></span>
+            </span>
+          </button>
+          <button class="btn" id="openOverlay">Open</button>
+          <div class="overlay">
+            <div class="modal-container">
+              <a href="#" class="close">x</a>
+              <div class="content">
+                <ul class="content__list">
+                  <li class="content__item"><a href="#" class="content__link">О нас</a></li>
+                  <li class="content__item"><a href="#" class="content__link">Наушники</a></li>
+                  <li class="content__item"><a href="#" class="content__link">Команда</a></li>
+                  <li class="content__item"><a href="#" class="content__link">Цвета</a></li>
+                  <li class="content__item"><a href="#" class="content__link">Отзывы</a></li>
+                  <li class="content__item"><a href="#" class="content__link">Как мы работаем</a></li>
+                  <li class="content__item"><a href="#" class="content__link">Контакты</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
 
         </header>
         <div class="promo__text-content">
@@ -156,6 +173,42 @@
         </ul>
       </div>
     </section>
+    <div class="simple-slider-container">
+      <a href="#" class="arrow" id="left">ᐸ</a>
+      <div class="slider">
+        <ul class="items" id="items">
+          <li class="item">
+            <div class="slider__img">
+              <img src="img/MX452_AV3.png" alt="">
+            </div>
+            <div class="slider__content">
+              <div class="dropdown">
+                <div class="dropdown__img"></div>
+              </div>
+              <div class="slider__title ">beats solo 3. цвет
+                «атласное серебро»</div>
+
+              <div class="slider__benefits">
+                <div class="slider__text">Беспроводные наушники Beats Solo3 готовы к работе в любой момент.
+                  Включите их и поднесите к своему iPhone — они мгновенно подключатся к нему.</div>
+
+                <div class="slider__desc_row">
+                  <div class="slider__desc_left">Зарядка <br> часа</div>
+                  <div class="slider__desc_right">Вес <br>215 грамм</div>
+                </div>
+                <div class="slider__desc_row">
+                  <div class="price">14 990 ₽</div>
+                  <div class="btn">Заказать</div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="item">2</li>
+          <li class="item">3</li>
+        </ul>
+      </div>
+      <a href="#" class="arrow" id="right">ᐳ</a>
+    </div>
     <section class="section reviews-section">
       <div class="container">
         <h2 class="section__title">Отзывы</h2>
@@ -277,47 +330,47 @@
         </form>
       </div>
     </section>
-  </div>
-  <footer class="footer">
-    <div id="map" class="map section"></div>
-   <div class="container">
-    <div class="footer__col">
-      <address class="contacts footer__menu-contacts ">
-        <div class="address">Москва, ул.Новый Арбат, д.31/12</div>
-        <div class="contact-phone">
-          <svg class="contact-phone_icon">
-            <use xlink:href="icons/sprite.svg#phone"></use>
-          </svg>
-          <a href="tel:8 800 903 90 90" class="contact-phone">
-            8 800 903 90 90
-          </a>
+    <footer class="footer">
+      <div id="map" class="map section"></div>
+      <div class="container">
+        <div class="footer__col">
+          <address class="contacts footer__menu-contacts ">
+            <div class="address">Москва, ул.Новый Арбат, д.31/12</div>
+            <div class="contact-phone">
+              <svg class="contact-phone_icon">
+                <use xlink:href="icons/sprite.svg#phone"></use>
+              </svg>
+              <a href="tel:8 800 903 90 90" class="contact-phone">
+                8 800 903 90 90
+              </a>
+            </div>
+          </address>
+          <ul class="social">
+            <li class="social__item social__item_icon_telegram"><a class="social-link" href="">
+                <svg class="social__item_pic">
+                  <use xlink:href="icons/sprite.svg#telegram"></use>
+                </svg>
+              </a></li>
+            <li class="social__item social__item_icon_insta"><a class="social-link" href="">
+                <svg class="social__item_pic">
+                  <use xlink:href="icons/sprite.svg#insta"></use>
+                </svg>
+              </a></li>
+            <li class="social__item social__item_icon_vk"><a class="social-link" href="">
+                <svg class="social__item_pic">
+                  <use xlink:href="icons/sprite.svg#insta"></use>
+                </svg>
+              </a></li>
+            <li class="social__item social__item_icon_fb"><a class="social-link" href="">
+                <svg class="social__item_pic">
+                  <use xlink:href="icons/sprite.svg#facebook"></use>
+                </svg>
+              </a></li>
+          </ul>
         </div>
-      </address>
-      <ul class="social">
-        <li class="social__item social__item_icon_telegram"><a class="social-link" href="">
-          <svg class="social__item_pic">
-            <use xlink:href="icons/sprite.svg#telegram"></use>
-          </svg>
-        </a></li>
-        <li class="social__item social__item_icon_insta"><a class="social-link" href="">
-          <svg class="social__item_pic">
-            <use xlink:href="icons/sprite.svg#insta"></use>
-          </svg>
-        </a></li>
-        <li class="social__item social__item_icon_vk"><a class="social-link" href="">
-          <svg class="social__item_pic">
-            <use xlink:href="icons/sprite.svg#insta"></use>
-          </svg>
-        </a></li>
-        <li class="social__item social__item_icon_fb"><a class="social-link" href="">
-          <svg class="social__item_pic">
-            <use xlink:href="icons/sprite.svg#facebook"></use>
-          </svg>
-        </a></li>
-      </ul>
-    </div>
-   </div>
-  </footer>
+      </div>
+    </footer>
+  </div>
   <nav class="fixed-menu">
     <ul class="fixed-menu__list">
       <li class="fixed-menu__item fixed-menu__item_active">
@@ -351,29 +404,40 @@
   </nav>
 </body>
 <script>
-// Initialize and add the map
-function initMap() {
-  // The location of Uluru
-  var uluru = {lat: 55.7420621, lng: 37.594065};
-  // The map, centered at Uluru
-  var map = new google.maps.Map(
-      document.getElementById('map'), {zoom: 10, center: uluru});
-  // The marker, positioned at Uluru
-  var marker = new google.maps.Marker({position: uluru, map: map});
-}
-    </script>
+  // Initialize and add the map
+  function initMap() {
+    // The location of Uluru
+    var uluru = {
+      lat: 55.7420621,
+      lng: 37.594065
+    };
+    // The map, centered at Uluru
+    var map = new google.maps.Map(
+      document.getElementById('map'), {
+        zoom: 10,
+        center: uluru
+      });
+    // The marker, positioned at Uluru
+    var marker = new google.maps.Marker({
+      position: uluru,
+      map: map
+    });
+  }
+</script>
 <script async defer
-src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8_X07UtHaGoPRG1hFQnqNUnjSwzX21Ns&callback=initMap">
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8_X07UtHaGoPRG1hFQnqNUnjSwzX21Ns&callback=initMap">
 </script>
 <script>
   // Look for .hamburger
   var hamburger = document.querySelector(".hamburger");
   // On click
-  hamburger.addEventListener("click", function() {
+  hamburger.addEventListener("click", function () {
     // Toggle class "is-active"
     hamburger.classList.toggle("is-active");
     // Do something else, like open/close menu
   });
 </script>
+<script src="js/slider.js"></script>
+<script src="js/modal.js"></script>
 
 </html>
